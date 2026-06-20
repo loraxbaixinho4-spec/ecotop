@@ -1,0 +1,6 @@
+{
+  "name": "EcoBot Reciclagem",
+  "description": "EcoBot inteligente para reciclagem doméstica com reconhecimento de imagem, guias de descarte, mapa de pontos de coleta e gamificação.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
