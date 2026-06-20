@@ -241,6 +241,10 @@ async function startServer() {
   });
 }
 
-startServer().catch((err) => {
-  console.error("Erro crítico na inicialização do servidor:", err);
-});
+if (!process.env.VERCEL) {
+  startServer().catch((err) => {
+    console.error("Erro crítico na inicialização do servidor:", err);
+  });
+}
+
+export default app;
